@@ -1,0 +1,146 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background for the entire body */
+    color: #f5f5f5; /* Light text color for readability */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #1f1f1f; /* Dark background for the header */
+    border-bottom: 1px solid #333; /* Subtle border for separation */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f5f5f5; /* Light color for the logo */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f5f5f5; /* Light color for the navigation links */
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #007aff; /* Highlight color on hover */
+}
+
+.cta .button {
+    padding: 10px 20px;
+    background: #000000; /* Blue background for the call-to-action button */
+    color: #f5f5f5; /* Light text color for the button */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.cta .button:hover {
+    background: #ffffff; /* Darker blue on hover */
+    color: black;
+}
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background for the entire body */
+    color: #f5f5f5; /* Light text color for readability */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #1f1f1f; /* Dark background for the header */
+    border-bottom: 1px solid #333; /* Subtle border for separation */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f5f5f5; /* Light color for the logo */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f5f5f5; /* Light color for the navigation links */
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #007aff; /* Highlight color on hover */
+}
+
+.cta .button {
+    padding: 10px 20px;
+    background: #007aff; /* Blue background for the call-to-action button */
+    color: #f5f5f5; /* Light text color for the button */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.cta .button:hover {
+    background: #005bb5; /* Darker blue on hover */
+}
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: #f5f5f5; /* Light text color for the hero section */
+    text-align: center;
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.hero-cta .button {
+    padding: 15px 30px;
+    margin: 10px;
+    background: #007aff; /* Blue background for the hero buttons */
+    color: #f5f5f5; /* Light text color for the buttons */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.hero-cta .button:hover {
+    background: #005bb5; /* Darker blue on hover */
+}
